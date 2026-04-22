@@ -1,2 +1,0 @@
-# copilot-standards
-copilot-standards
