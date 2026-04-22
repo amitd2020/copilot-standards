@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "mongodb-dev": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-mongodb"
+      ],
+      "env": {
+        "MONGODB_URI": "mongodb://localhost:27017/intelligence_db"
+      }
+    },
+    "elasticsearch-dev": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@elastic/mcp-server-elasticsearch"
+      ],
+      "env": {
+        "ES_URL": "http://localhost:9200"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "postGenerate": {
+      "command": "npx prettier --write .",
+      "description": "Automatically formats the code using Prettier."
+    },
+    "sessionEnd": {
+      "command": "npx eslint src/ --fix",
+      "description": "Runs ESLint to ensure the AI's code meets our syntax rules."
+    }
+  }
+}

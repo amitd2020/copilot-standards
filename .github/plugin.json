@@ -1,0 +1,11 @@
+{
+  "name": "express-intelligence-pack",
+  "displayName": "Express & Elastic Intelligence Guidelines",
+  "description": "Agents and skills for building fuzzy-search APIs.",
+  "version": "1.0.0",
+  "publisher": "your-company-name",
+  "agents": ["agents/api-architect.agent.md", "agents/search-expert.agent.md"],
+  "skills": ["skills/sync-mongo-to-elastic", "skills/build-fuzzy-search"],
+  "prompts": ["prompts/scaffold-express-route.prompt.md", "prompts/create-mongoose-schema.prompt.md"],
+  "hooks": "hooks/hooks.json"
+}
